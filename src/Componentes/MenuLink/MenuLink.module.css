@@ -13,5 +13,6 @@
 @media (max-width: 744px) {
     .link {
         letter-spacing: 1px;
+        font-size: 1.2rem;
     }
 }

@@ -33,29 +33,35 @@
 }
 
 @media (max-width: 744px) {
+
+    .postModeloContainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .postConteudoContainer {
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
         padding-top: 2rem;
         text-align: justify;
     }
-
-        
-}
-
-@media (max-width: 744px) {
 
     .fotoCapa,
     .titulo {
         height: 104px;
     }
 
+    .fotoCapa{
+        width: 100vw;
+        left: -5vw;
+    }
+
     .titulo {
         padding: 0 1rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .postConteudoContainer {
-        padding: 1rem 1rem 1.5rem;
+        /* padding: 1rem 1rem 1.5rem; */
     }
 }

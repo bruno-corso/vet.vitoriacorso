@@ -1,7 +1,7 @@
 /* index.css */
 
 /* Definindo as fontes do projeto */
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 /* Certifique-se de que o link acima é válido e esteja conectado à Internet */
 
 /* Variáveis para as cores do projeto */
@@ -12,7 +12,7 @@
   --fundo: #cbf9fa;
   
   /* Fontes */
-  --fonte-principal: 'Neucha', cursive;
+  font-family: 'Delius', cursive;
 }
 
 /* Estilos globais para elementos padrão */
