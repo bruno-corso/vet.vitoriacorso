@@ -1,0 +1,61 @@
+.postModeloContainer {
+    color: var(--cor-fonte-post);
+    position: relative;
+}
+
+.fotoCapa {
+    width: 100%;
+    height: 200px;
+    background-position: top;
+    background-repeat: repeat;
+    background-size: contain;
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    z-index: -1;
+}
+
+.titulo {
+    padding-top: 4rem;
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.postConteudoContainer {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: justify;
+}
+
+@media (max-width: 744px) {
+    .postConteudoContainer {
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 2rem;
+        text-align: justify;
+    }
+
+        
+}
+
+@media (max-width: 744px) {
+
+    .fotoCapa,
+    .titulo {
+        height: 104px;
+    }
+
+    .titulo {
+        padding: 0 1rem;
+        font-size: 2rem;
+    }
+
+    .postConteudoContainer {
+        padding: 1rem 1rem 1.5rem;
+    }
+}

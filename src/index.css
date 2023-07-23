@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* index.css */
+
+/* Definindo as fontes do projeto */
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+/* Certifique-se de que o link acima é válido e esteja conectado à Internet */
+
+/* Variáveis para as cores do projeto */
+:root {
+  /* Cores */
+  --verde-principal: #00CED1;
+  --verde-secundario: #01999b;
+  --fundo: #cbf9fa;
+  
+  /* Fontes */
+  --fonte-principal: 'Neucha', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Estilos globais para elementos padrão */
+body {
+  font-family: var(--fonte-principal);
+  line-height: 1.6;
+  color: #333; /* Cor padrão para o texto */
+  margin: 0;
+  padding: 0;
+  background-color: var(--fundo);
+}
+
+a {
+  color: var(--verde-principal);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--verde-secundario);
+}
+
+button {
+  font-family: var(--fonte-principal);
+  background-color: var(--verde-principal);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font-family: var(--fonte-principal);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo de exemplo para um cabeçalho */
+h1 {
+  font-size: 2rem;
+  color: var(--verde-principal);
+  margin-bottom: 20px;
 }

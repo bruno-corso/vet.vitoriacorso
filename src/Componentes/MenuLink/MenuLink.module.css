@@ -1,0 +1,17 @@
+.link {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.link_destacado {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@media (max-width: 744px) {
+    .link {
+        letter-spacing: 1px;
+    }
+}
