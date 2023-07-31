@@ -4,7 +4,6 @@ import PostCard from "Componentes/PostCard";
 
 const Inicio = () => {
 
-    console.log(postagens)
     return (
         <ul className={styles.posts}>
             {postagens.map((post) => (
