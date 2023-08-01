@@ -17,7 +17,7 @@ const Banner = () => {
                 <p className={styles.paragrafo}>Cirurgiã e Endoscopista</p>
                 <p className={styles.paragrafo}>Clínica Veterinária e Volante</p>
                 <ReactWhatsapp
-                    number='+5511970591232'
+                    number='+5511954616083'
                     className={styles.zapzap}
                     message={msgZap}
                 >
