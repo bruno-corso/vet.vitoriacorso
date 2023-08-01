@@ -3,10 +3,11 @@ import styles from "./Menu.module.css"
 import { BsFlower1 } from 'react-icons/bs'
 
 const Menu = () => {
+
     return (
-        <header>
+        <header name="menu">
             <nav className={styles.navegacao}>
-                <BsFlower1 className={styles.icon} color="white" size={30}/>
+                <BsFlower1 className={styles.icon} color="white" size={30} />
                 <MenuLinks to='/'>
                     Início
                 </MenuLinks>
@@ -20,5 +21,5 @@ const Menu = () => {
         </header>
     );
 }
- 
+
 export default Menu;  

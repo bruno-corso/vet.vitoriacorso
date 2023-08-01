@@ -4,6 +4,8 @@ import { useParams } from "react-router";
 import { useNavigate } from "react-router-dom";
 import postagens from 'json/posts.json'
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import * as Scroll from 'react-scroll';
+
 
 const Post = () => {
 
@@ -15,7 +17,15 @@ const Post = () => {
 
     const navigate = useNavigate();
 
-    function retornarInicio() {
+    const scroller = Scroll.scroller
+
+    function rolarPaginaInicio() {
+        scroller.scrollTo('menu', {
+            duration: 750,
+            delay: 0,
+            smooth: true,
+            offset: 0
+        });
         navigate(-1);
     }
 
@@ -30,7 +40,7 @@ const Post = () => {
                 </ReactMarkdown>
             </div>
 
-            <button className="botao" onClick={retornarInicio}>← Voltar</button>
+            <button className="botao" onClick={rolarPaginaInicio}>← Voltar</button>
 
         </PostModelo>
     );
